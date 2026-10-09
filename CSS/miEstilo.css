@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contenido {
+    height: 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+}
+
+/* Fondos individuales para cada película */
+#peli1 {
+    background-image: url('../Image/1.jpg');
+}
+#peli2 {
+    background-image: url('../Image/HP_2.jpg');
+}
+#peli3 {
+    background-image: url('../Image/HP_3.jpg');
+}
+#peli4 {
+    background-image: url('../Image/HP_4.jfif');
+}
+#peli5 {
+    background-image: url('../Image/HP_5.jpg');
+}
+#peli6 {
+    background-image: url('../Image/HP_6.webp');
+}
+#peli7 {
+    background-image: url('../Image/HP_7.jpg');
+}
+#peli8 {
+    background-image: url('../Image/HP_8.jpg');
+}
+
+nav {
+    position: fixed;
+    left: 200px;
+    top: 15%; 
+    z-index: 100;
+    transition: 0.4s ease;
+    transform: translateX(-50%);
+}
+
+ul {
+    list-style: none;
+}
+
+
+ul a {
+    display: block;
+    color: #ffff; 
+    text-decoration: none;
+    height: auto;
+    min-height: 40px;
+    border: 1px solid #800020;
+    background-color: rgba(15, 32, 39, 0.85); 
+    width: 200px; 
+    text-align: center;
+    padding: 10px 8px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: 0.4s ease;
+}
+
+ul a:hover {
+    background-color: #800020; 
+    color: #4a90e2; 
+    border-color: #4a90e2; 
+    transform: translateX(10%);
+}
